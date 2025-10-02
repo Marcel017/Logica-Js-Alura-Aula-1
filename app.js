@@ -24,6 +24,7 @@ function verificarChute() {
             exibirTextoNaTela('p', 'O numero secreto e maior')
         }
         tentativas++;
+        limparCampo();
     }
 }
 
@@ -31,4 +32,7 @@ function gerarNumeroAleatorio() {
     return parseInt(Math.random() * 10 + 1);
 }
 
-
+function limparCampo() {
+    chute = document.querySelector('input'); 
+    chute.value = '';
+}
