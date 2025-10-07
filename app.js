@@ -72,3 +72,6 @@ function reiniciarJogo() {
     exibirMensageinicial();
     document.getElementById('reiniciar').setAttribute('disabled',true);
 }
+
+
+//Codigo ficou incrivelmente bom, Adorei a aula da Alura
