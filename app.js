@@ -74,5 +74,3 @@ function reiniciarJogo() {
 }
 
 
-//Codigo ficou incrivelmente bom, Adorei a aula da Alura
-
